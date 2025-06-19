@@ -14,4 +14,7 @@
     <string name="name">Name</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_an_account">Already have an account?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_the_email_below">Enter the email below</string>
+    <string name="submit">Submit</string>
 </resources>

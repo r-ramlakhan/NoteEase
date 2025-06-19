@@ -33,6 +33,15 @@ class AuthRepository {
         }
     }
 
+    suspend fun resetPassword(email: String) : Boolean {
+        return try {
+            firebaseAuth.sendPasswordResetEmail(email).await()
+            true
+        } catch (e: Exception) {
+            false
+        }
+    }
+
     private suspend fun saveUserToDatabase(user: User) {
         database.child(user.id).setValue(user).await()
     }
