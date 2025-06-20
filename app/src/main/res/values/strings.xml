@@ -17,4 +17,8 @@
     <string name="reset_password">Reset Password</string>
     <string name="enter_the_email_below">Enter the email below</string>
     <string name="submit">Submit</string>
+    <string name="add">add</string>
+    <string name="logout">logout</string>
+    <string name="hello">Hello,</string>
+    <string name="no_notes">No Notes</string>
 </resources>
